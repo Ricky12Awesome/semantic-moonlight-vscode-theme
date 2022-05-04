@@ -1,10 +1,10 @@
 {
-  "name": "semantic_moonlight",
+  "name": "semantic-moonlight",
   "displayName": "Semantic Moonlight",
   "description": "Moonlight theme with semantic highlighting and tweaked to resemble material moonlight for JetBrains IDEs",
   "version": "0.10.5",
   "publisher": "Ricky12Awesome",
-  "license": "SEE LICENSE IN LICENSE.md",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/atomiks/moonlight-vscode-theme"
@@ -13,7 +13,8 @@
     "Theme",
     "Dark Theme",
     "Moonlight",
-    "Night Theme"
+    "Night Theme",
+    "Semantic Highlighting"
   ],
   "scripts": {
     "publish": "vsce publish",
