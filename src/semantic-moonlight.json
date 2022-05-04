@@ -985,6 +985,7 @@
     "string": "--moonlight-green",
     "character": "--moonlight-green",
     "typeParameter": "--moonlight-teal-alt",
+    "typeAlias": "--moonlight-yellow",
     "parameter": "--moonlight-pink",
     "variable": "--moonlight-gray-10",
     "keyword": "--moonlight-purple",
