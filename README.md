@@ -8,6 +8,14 @@ Moonlight theme with semantic highlighting and tweaked to resemble [moonlight th
 
 * Soon™️
 
+## Bracket Pair Settings
+
+```json
+"editor.bracketPairColorization.enabled": true,
+"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+"editor.guides.bracketPairs": "active",
+```
+
 ## Related Packages
 
 - [Brettm12345/github-moonlight](https://github.com/Brettm12345/github-moonlight)

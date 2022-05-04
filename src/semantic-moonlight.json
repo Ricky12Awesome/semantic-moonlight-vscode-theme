@@ -205,7 +205,13 @@
     "settings.modifiedItemIndicator": "--moonlight-blue",
     "settings.checkboxBackground": "--moonlight-gray-1",
     "settings.checkboxForeground": "--moonlight-gray-10",
-    "settings.checkboxBorder": "#00000066"
+    "settings.checkboxBorder": "#00000066",
+
+    "editorBracketHighlight.foreground1": "--moonlight-orange",
+    "editorBracketHighlight.foreground2": "--moonlight-yellow",
+    "editorBracketHighlight.foreground3": "--moonlight-green",
+    "editorBracketHighlight.foreground4": "--moonlight-teal-alt",
+    "editorBracketHighlight.foreground5": "--moonlight-purple",
   },
   "tokenColors": [
     {
