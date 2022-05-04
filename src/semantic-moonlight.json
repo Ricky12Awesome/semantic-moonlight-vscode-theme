@@ -154,8 +154,8 @@
     "notifications.background": "--moonlight-gray-2",
     "notifications.foreground": "--moonlight-gray-10",
     "notificationLink.foreground": "--moonlight-blue",
-    "badge.background": "--moonlight-dark-blue",
-    "badge.foreground": "#ffffff",
+    "badge.background": "--moonlight-gray-4",
+    "badge.foreground": "--moonlight-gray-10",
     "button.background": "--moonlight-dark-blue",
     "button.hoverBackground": "--moonlight-sky-bluecc",
     "extensionButton.prominentBackground": "--moonlight-dark-blue",
@@ -957,9 +957,18 @@
       "settings": {
         "foreground": "--moonlight-purple"
       }
+    },
+    {
+      "scope": "",
+      "settings": {
+        "fontStyle": ""
+      }
     }
   ],
   "semanticTokenColors": {
+    "*.attribute": "--moonlight-blue",
+    "derive": "--moonlight-green",
+    "macro": "--moonlight-blue-alt",
     "class": "--moonlight-yellow",
     "struct": "--moonlight-yellow",
     "namespace": "--moonlight-gray-10",
@@ -968,19 +977,36 @@
     "method.declaration": "--moonlight-blue",
     "method.static": "--moonlight-blue",
     "function.static": "--moonlight-blue",
-    "function": "--moonlight-yellow",
-    "method": "--moonlight-yellow",
+    "function": "--moonlight-yellow-alt",
+    "method": "--moonlight-yellow-alt",
     "property": "--moonlight-teal",
     "field": "--moonlight-teal",
     "lifetime": "--moonlight-gray-10",
-    "typeParameter": "--moonlight-teal",
+    "string": "--moonlight-green",
+    "character": "--moonlight-green",
+    "typeParameter": "--moonlight-teal-alt",
     "parameter": "--moonlight-pink",
     "variable": "--moonlight-gray-10",
     "keyword": "--moonlight-purple",
-    "*.attribute": "--moonlight-blue",
-    "variable.constant": "--moonlight-blue",
-    "variable.static": "--moonlight-blue",
+    "variable.constant": "--moonlight-gray-11",
+    "variable.static": "--moonlight-gray-11",
     "enumMember": "--moonlight-teal",
-    "builtinType": "--moonlight-purple"
+    "builtinType": "--moonlight-purple",
+    "operator": "--moonlight-purple",
+    "parenthesis": "--moonlight-gray-10",
+    "bracket": "--moonlight-gray-10",
+    "attributeBracket": "--moonlight-gray-10",
+    "brace": "--moonlight-gray-10",
+    "angle": "--moonlight-gray-10",
+    "colon": "--moonlight-gray-10",
+    "semicolon": "--moonlight-gray-10",
+    "comma": "--moonlight-gray-10",
+    "*": {
+      "bold": false,
+      "italic": false,
+      "strikethrough": false,
+      "underline": false,
+      "fontStyle": ""
+    },
   }
 }
