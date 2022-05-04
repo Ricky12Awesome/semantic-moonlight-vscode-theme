@@ -1,5 +1,7 @@
 {
-  "name": "Moonlight II",
+  "$schema": "vscode://schemas/color-theme",
+  "semanticHighlighting": true,
+  "name": "Semantic Moonlight",
   "type": "dark",
   "colors": {
     "foreground": "--moonlight-gray-10",
@@ -210,7 +212,6 @@
       "name": "Comment",
       "scope": ["comment", "punctuation.definition.comment", "string.quoted.docstring"],
       "settings": {
-        "fontStyle": "italic",
         "foreground": "--moonlight-indigo"
       }
     },
@@ -279,9 +280,7 @@
     {
       "name": "Keyword, Storage",
       "scope": ["keyword.control", "storage"],
-      "settings": {
-        "fontStyle": "italic"
-      }
+      "settings": {}
     },
     {
       "name": "Interpolation",
@@ -330,9 +329,7 @@
     {
       "name": "Keyword Control",
       "scope": ["keyword.control"],
-      "settings": {
-        "fontStyle": "italic"
-      }
+      "settings": {}
     },
     {
       "name": "Tag",
@@ -533,13 +530,6 @@
       }
     },
     {
-      "name": "CSS value",
-      "scope": ["support.constant.property-value"],
-      "settings": {
-        "foreground": "--moonlight-cyan"
-      }
-    },
-    {
       "name": "Sub-methods",
       "scope": ["entity.name.module.js", "variable.import.parameter.js", "variable.other.class.js"],
       "settings": {
@@ -550,7 +540,6 @@
       "name": "Language methods",
       "scope": ["variable.language"],
       "settings": {
-        "fontStyle": "italic",
         "foreground": "--moonlight-red"
       }
     },
@@ -558,7 +547,6 @@
       "name": "entity.name.method.js",
       "scope": ["entity.name.method.js"],
       "settings": {
-        "fontStyle": "italic",
         "foreground": "--moonlight-blue"
       }
     },
@@ -573,7 +561,6 @@
       "name": "Attributes",
       "scope": ["entity.other.attribute-name"],
       "settings": {
-        "fontStyle": "italic",
         "foreground": "--moonlight-purple"
       }
     },
@@ -594,7 +581,6 @@
         "meta.tag.metadata.doctype entity.other.attribute-name"
       ],
       "settings": {
-        "fontStyle": "italic",
         "foreground": "--moonlight-purple"
       }
     },
@@ -706,7 +692,6 @@
         "tag.decorator.js punctuation.definition.tag.js"
       ],
       "settings": {
-        "fontStyle": "italic",
         "foreground": "--moonlight-blue"
       }
     },
@@ -721,7 +706,6 @@
       "name": "ES7 Bind Operator",
       "scope": ["source.js constant.other.object.key.js string.unquoted.label.js"],
       "settings": {
-        "fontStyle": "italic",
         "foreground": "--moonlight-red"
       }
     },
@@ -974,5 +958,29 @@
         "foreground": "--moonlight-purple"
       }
     }
-  ]
+  ],
+  "semanticTokenColors": {
+    "class": "--moonlight-yellow",
+    "struct": "--moonlight-yellow",
+    "namespace": "--moonlight-gray-10",
+    "interface": "--moonlight-green",
+    "function.declaration": "--moonlight-blue",
+    "method.declaration": "--moonlight-blue",
+    "method.static": "--moonlight-blue",
+    "function.static": "--moonlight-blue",
+    "function": "--moonlight-yellow",
+    "method": "--moonlight-yellow",
+    "property": "--moonlight-teal",
+    "field": "--moonlight-teal",
+    "lifetime": "--moonlight-gray-10",
+    "typeParameter": "--moonlight-teal",
+    "parameter": "--moonlight-pink",
+    "variable": "--moonlight-gray-10",
+    "keyword": "--moonlight-purple",
+    "*.attribute": "--moonlight-blue",
+    "variable.constant": "--moonlight-blue",
+    "variable.static": "--moonlight-blue",
+    "enumMember": "--moonlight-teal",
+    "builtinType": "--moonlight-purple"
+  }
 }
