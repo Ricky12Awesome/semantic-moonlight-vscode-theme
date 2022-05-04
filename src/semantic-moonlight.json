@@ -964,12 +964,6 @@
         "foreground": "--moonlight-purple"
       }
     },
-    {
-      "scope": "",
-      "settings": {
-        "fontStyle": ""
-      }
-    }
   ],
   "semanticTokenColors": {
     "*.attribute": "--moonlight-blue",
@@ -990,6 +984,9 @@
     "lifetime": "--moonlight-gray-10",
     "string": "--moonlight-green",
     "character": "--moonlight-green",
+    "number": "--moonlight-orange",
+    "boolean": "--moonlight-purple",
+    "constParameter": "--moonlight-gray-11",
     "typeParameter": "--moonlight-teal-alt",
     "typeAlias": "--moonlight-yellow",
     "parameter": "--moonlight-pink",
@@ -1005,15 +1002,9 @@
     "attributeBracket": "--moonlight-gray-10",
     "brace": "--moonlight-gray-10",
     "angle": "--moonlight-gray-10",
-    "colon": "--moonlight-gray-10",
+    "colon": "--moonlight-purple",
     "semicolon": "--moonlight-gray-10",
     "comma": "--moonlight-gray-10",
-    "*": {
-      "bold": false,
-      "italic": false,
-      "strikethrough": false,
-      "underline": false,
-      "fontStyle": ""
-    },
+    "punctuation": "--moonlight-purple",
   }
 }
